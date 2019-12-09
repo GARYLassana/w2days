@@ -1,0 +1,12 @@
+
+.code_captcha {
+	margin-right: 25%;
+}
+.msg_erreur{
+	color: #ff0000;
+	display: none;
+	font-style: italic;
+}
+span img{
+	border-style: dotted;
+}

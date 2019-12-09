@@ -1,0 +1,132 @@
+﻿
+#text-slide{
+	font-size: 63px!important;
+	z-index: 2;
+}
+.service-topnetservices{
+	padding: 1% 6% 1% 6%;
+	text-align: center;
+	color: #ffffff;
+}
+#service{
+	display: flex;
+	justify-content: center;
+	border: 1px solid;
+}
+figure
+{
+	position: relative;
+}
+figcaption{
+	position: absolute;
+	font-size: 22px;
+	background-color: #0333596b;
+	width: 80.3%;
+	padding: 33.5px;
+	bottom: 5px;
+	left: 0;
+	display: none;
+}
+figure:hover figcaption{
+	display: initial;
+}
+.fa-eye
+{
+	padding: 2%;
+    border-radius:50%;
+	border: 1px solid white;
+	background-color: #5cadd3;
+	color: white;
+	font-size: 50%!important;
+	top: -10%;
+	right: 3%;
+	position: absolute;
+}
+.description-services{
+	display: flex;
+	justify-content: space-between;
+	background-image: url("../image/services/background-services.png"); 
+	width: 100%;
+	height: 100%;
+	color: #000000;
+	font-size: 17px;
+	background-color: #000000;
+}
+#desc-bloc1, #desc-bloc2, #desc-bloc3{
+	width: 42%;
+	padding: 6%;
+}
+.desc-text1{
+	margin-bottom: 20%;
+}
+.fa-laptop-code, .fa-chart-line, .fa-mobile, .fa-american-sign-language-interpreting, .fa-house-damage, .fa-lock{
+	color: #8dcaff;
+}
+figcaption p{
+	text-align: center;
+}
+
+ /*
+*****************************************************************************************
+*                                     La responsive                                     *
+*****************************************************************************************
+*/
+
+@media all and (max-width: 600px){
+	#text-slide {
+		margin-top: 25.5% !important;
+	}
+	.service-topnetservices {
+		font-size: 86%;
+		padding: 0 !important;
+	}
+	#service {
+		display: initial;
+	}
+	figure {
+		margin: -3px;
+	}
+	figcaption {
+		display: initial !important;
+		width: 77.5%;
+		bottom: 4px;
+		left: 6px;
+	}
+	.description-services {
+		display: initial;
+	}
+	.desc-text1 {
+		margin-bottom: 0%;
+	}
+	#desc-bloc1, #desc-bloc2, #desc-bloc3 {
+		width: 90% !important;
+		padding: 0 !important;
+		margin-left: 18px;
+	}
+	.description-services {
+		font-size: 14px;
+	}
+ 
+}
+
+
+@media all and (min-width: 600px) and (max-width: 992px) {
+
+	.service-topnetservices {
+		transform: scale(0.6);
+		margin-top: -27%;
+		margin-bottom: -25%;
+	}
+	figcaption {
+		display: initial;
+	}
+	.description-services h2{
+		font-size: 16px;
+	}
+	.description-services p{
+		font-size: 14px;
+	}
+
+
+
+}

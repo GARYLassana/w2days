@@ -1,0 +1,267 @@
+﻿video{
+  width: 100%;
+}
+/*
+*****************************************************************************************
+*                                     BLOC 1 : Body                                   *                                                                                     
+*****************************************************************************************
+*/  
+/* --------------LA PREMIERE SECTION -----------------*/
+nav ol, ul, dl {
+    margin-top: 2.3% !important;
+}
+.form-control{
+  width: 70%!important;
+  margin-bottom: 1rem!important;
+  margin-top: -18px;
+}
+.form-group{
+  display: flex!important;
+  justify-content: space-around;
+}
+.form-group p{
+  margin-left: 2% !important;
+}
+.checkbox-form-group{
+  margin-bottom: 2%;
+}
+.checkbox-form-group label{
+  display: inline!important;
+  margin-left: 23.5%;
+}
+
+.checkbox-form-group input{
+  margin-right: 2%;
+}
+.form-group label{
+  width: 18%;
+  text-align: left; 
+}
+.btn{
+  margin-left: 86%;
+}
+.contenu_contact{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.adresses{
+  width: 47%;
+  background-image: url("../image/services/bureau.png");
+  background-repeat: no-repeat;
+}
+.video_maps{
+  padding-top: 2%;
+}
+.formulaire{
+  width: 52%;
+}
+
+#bureau-agence{
+  margin-left: 1%;
+  margin-top: 2%;
+  opacity:0.7;
+  color: #ffffff;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  background: #6f6b6b;
+  width: 70%;
+  border-radius: 11px;
+  padding-bottom: 1px;
+}
+#bureau-agence h2{
+  text-align: center;
+  font-size: 30px;
+}
+#bureau-agence ul{
+  list-style-type: circle;
+  line-height: 140%;
+  font-size: 18px;
+}
+#bureau-agence hr{
+  width: 15%;
+  margin-left: 27px!important;
+  color: #8dcaff;
+}
+
+iframe{
+  opacity:0.7;
+  width: 100%;
+  height: 70%;
+}
+#bloc_titre_contact h1{
+  text-align: center!important;
+  font-size: 33px;
+  margin-bottom: 4%;
+  margin-top: 0%;
+}
+form, fieldset p{
+  text-align: center;
+}
+form fieldset{
+  padding: 2%;
+}
+#bloc_titre_contact, hr{
+  color: #8dcaff!important;
+  margin-left: 0%!important;
+}
+.hr{
+  margin-left: 10%;
+}
+h2, .h2 {
+  font-size: 1.5rem !important;
+}
+ /*
+*****************************************************************************************
+*                                     La responsive                                     *
+*****************************************************************************************
+*/
+
+@media all and (max-width: 600px){
+  .contenu_contact {
+    display: initial;
+    width: 100%;
+  }
+  .adresses {
+    width: 100%;
+  }
+  #bureau-agence {
+    margin-left: 0;
+    width: 100%;
+    margin-top: -5px;
+    padding-bottom: 1px;
+    border-radius: 0%;
+  }
+  #bureau-agence h2 {
+    font-size: 23px;
+  }
+  #bureau-agence ul {
+    font-size: 15px;
+  }
+  .video_maps {
+    padding-top: 0%;
+  }
+  .formulaire {
+    width: 100%;
+  }
+  #bloc_titre_contact h1{
+    font-size: 22px;
+    margin-bottom: 6%;
+  }
+  .form-group {
+    margin-bottom: 0rem;
+  }
+  .form-group label {
+    width: 25%;
+    font-size: 13px;
+  }
+  .btn {
+    margin-left: 74%;
+  }
+  .form-group p {
+    margin-left: 1% !important;
+    margin-right: 3%;
+    font-size: 13px;
+  }
+  #captcha label{
+    width: 29% !important;
+  }
+  .code_captcha {
+    margin-right: -4%;
+  }
+  .checkbox-form-group label {
+    margin-left: -0.5% !important;
+    font-size: 11px;
+  }
+  .checkbox-form-group input {
+    margin-right: 1% !important;
+  }
+}
+
+
+
+
+
+@media all and (min-width: 600px) and (max-width: 992px) {
+
+  .contenu_contact {
+    display: initial;
+    width: 100%;
+  }
+  .adresses {
+    width: 100%;
+  }
+  #bureau-agence {
+    margin-left: 0;
+    width: 100%;
+    margin-top: -5px;
+    padding-bottom: 1px;
+    border-radius: 0%;
+  }
+  #bureau-agence h2 {
+    font-size: 25px;
+  }
+  #bureau-agence ul {
+    margin-top: -2.7% !important;
+  }
+  .video_maps {
+    padding-top: 0%;
+  }
+  .formulaire {
+    width: 100%;
+  }
+  #bloc_titre_contact {
+    color: #8b9095 !important;
+  }
+  #bloc_titre_contact h1{
+    font-size: 28px;
+    margin-bottom: 3.2%;
+  }
+  .form-group {
+    margin-bottom: 0.7rem;
+  }
+  .form-group label {
+    width: 14%;
+    text-align: center;
+  }
+  .form-group p {
+    margin-left: -2% !important;
+  }
+  label {
+      margin-bottom: 1.5rem;
+  }
+  #captcha label{
+      width: 16%;
+      text-align: left;
+      margin-left: 44px;
+  }
+  .code_captcha {
+    margin-right: 44% !important;
+  }
+  .form-control {
+    margin-bottom: 0rem !important;
+  }
+  select.form-control:not([size]):not([multiple]) {
+    height: calc(2.8rem + 1px) !important;
+  }
+  form, fieldset p {
+    text-align: left;
+  }
+  .checkbox-form-group label {
+    margin-left: 7% !important;
+  }
+  /*  Footer */
+
+  .service-info-payement h2{
+  font-size: 1.5rem;
+  }
+  #service-client {
+    padding-left: 82px !important;
+    width: 41% !important;
+  }
+  #informations {
+    width: 46% !important;
+  }
+  #service-client ul {
+    margin-left: -26%;
+  }
+}
